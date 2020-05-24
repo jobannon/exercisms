@@ -1,4 +1,4 @@
-var color_value_mapper =  {
+const color_value_mapper =  {
     'black': 0, 
     'brown': 1,
     'red': 2,
