@@ -14,8 +14,6 @@ const color_value_mapper =  {
 export const colorCode = (color) => {
   
   return color_value_mapper[color];
-  
-  throw new Error("");
 };
 
 export const COLORS = Object.keys(color_value_mapper);
