@@ -15,8 +15,6 @@ export const decodedValue = (incoming_data) => {
   var result;
 
   for (var i = 0; i < incoming_data.length; i++ ){
-    console.log(incoming_data.length)
-    console.log(i)
     if (i == 0){ // first spot
       result = color_value_mapper[incoming_data[i]] 
     } //tens spot 
